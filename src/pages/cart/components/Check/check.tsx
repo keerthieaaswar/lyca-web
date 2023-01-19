@@ -40,7 +40,7 @@ const Check = (props: Props) => {
         </div>
         <div className={classes["card-contrainer4"]}>
           <div className={classes.eSIMContent1}>
-            What&quot;s an eSIM
+            What&#39;s an eSIM
             <br />
             <div className={classes.eSIMContent2}>
               See compatible list of phones
