@@ -1,0 +1,124 @@
+.cartButton {
+  width: 65%;
+  height: 50px;
+  background: #696969;
+  border-radius: 8px;
+  position: relative;
+
+  left: 19%;
+  animation: ease-out transition 0.3s;
+}
+.cartButton:hover {
+  transform: scale(1.1);
+  background: black;
+}
+
+.cartButtonText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+.continueDiv {
+  padding-top: 2%;
+}
+.continueButton {
+  width: 65%;
+  height: 50px;
+  background: white;
+  border-radius: 8px;
+  position: relative;
+
+  left: 19%;
+  animation: ease-out transition 0.3s;
+}
+.continueButton:hover {
+  transform: scale(1.1);
+  background: white;
+  text-decoration: underline;
+}
+
+.continueButtonText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 32px;
+
+  color: black;
+}
+
+.summaryLabel {
+  position: relative;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  left: 20%;
+  color: black;
+}
+
+.item1Label {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 32px;
+  left: 13%;
+  color: black;
+}
+.change {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 32px;
+  left: 18%;
+  color: blue;
+}
+.summaryDiv {
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+.itemDiv {
+  padding-top: 5%;
+}
+.item2Label {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 32px;
+  left: 13%;
+  color: black;
+  padding-right: 30%;
+  display: inline-block;
+}
+.saveDiscount {
+  position: relative;
+  left: 13%;
+  color: green;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+.subTotal {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  left: 13%;
+  color: black;
+}
+
+.amount {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  left: 55%;
+  color: black;
+}

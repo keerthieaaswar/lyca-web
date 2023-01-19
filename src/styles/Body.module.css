@@ -1,0 +1,230 @@
+.bg {
+  background: #cacaca;
+  border: 1px solid #e6e6e6;
+}
+.item1 {
+  grid-area: header1;
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  top: 100%;
+}
+
+.item2 {
+  grid-area: header2;
+}
+.item3 {
+  grid-area: main;
+
+}
+.cardStuff
+{ display: block;
+overflow-x: scroll;
+}
+.item4 {
+  grid-area: blah;
+}
+.item5 {
+  grid-area: blah2;
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  top: 10%;
+  width: 100%;
+
+}
+.item6 {
+  grid-area: footer;
+  width: 100%;
+  position: relative;
+
+}
+.item7 {
+  grid-area: header21;
+  width: 100%;
+
+}
+.item8 {
+  grid-area: main1;
+}
+.item9 {
+  grid-area: blah1;
+}
+.item10 {
+  grid-area: blah21;
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  top: 10%;
+  width: 100%;
+}
+.item11 {
+  grid-area: footer1;
+}
+.item12 { grid-area: header3; }
+.item13 { grid-area: header4; }
+.item14{ grid-area: header5; }
+.item15{ grid-area: header6; }
+.grid-container {
+  display: grid;
+  row-gap: 70px;
+  grid-template-areas:
+    "header1 header1 header1 header1 header1 header1"
+    "header2 header2 header2 header2 header2 header2"
+    " main main main main main main"
+    " blah blah blah blah blah blah"
+    " blah2 blah2 blah2 blah2 blah2 blah2"
+    "footer footer footer footer footer footer"
+    "header21 header21 header21 header21 header21 header21"
+    " main1 main1 main1 main1 main1 main1"
+    " blah1 blah1 blah1 blah1 blah1 blah1"
+    " blah21 blah21 blah21 blah21 blah21 blah21"
+    "footer1 footer1 footer1 footer1 footer1 footer1"
+    'header3 header3 header3 header3 header3 header3'
+    'header4 header4 header4 header4 header4 header4'
+       
+    ;
+
+ 
+}
+.viewAllButton {
+  width: 13%;
+  height: 100%;
+  background: gray;
+  border-radius: 8px;
+  position: relative;
+  top: 30%;
+  left: 43%;
+  animation: ease-out transition 0.3s;
+}
+.viewAllButton:hover {
+  transform: scale(1.1);
+  background: black;
+}
+.viewAllButtonText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+
+  color: white;
+}
+
+.desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  position: relative;
+  bottom: 10%;
+  left: 10%;
+
+  color: #000000;
+}
+.image
+{
+    max-height: 350px; 
+    width: 100%;
+}
+.lycaimage
+{
+    position: relative;
+    top:10%;
+    max-height: 350px; 
+    width: 50%; 
+}
+.switch {
+    width: 13%;
+    height: 100%;
+    background: gray;
+    border-radius: 8px;
+    position: relative;
+    top: 30%;
+    left: 43%;
+    animation: ease-out transition 0.3s;
+  }
+  .switch:hover {
+    transform: scale(1.1);
+    background: black;
+  }
+  .switchText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+  
+    color: white;
+  }
+  .stores
+  {
+    left: 25%;
+    position: relative;
+    bottom: 40%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+  }
+  .storesDesc
+  {
+    left: 27%;
+    position: relative;
+    bottom: 40%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    overflow-wrap: break-word;
+    padding-left: 34%;
+    padding-right: 38%;
+  }
+  .playStore
+  {
+    height: 10%;
+    position: relative;
+    bottom: 35%;
+    left: 62%;
+    animation: ease-out transition 0.3s;
+}
+.playStore:hover {
+  transform: scale(1.1);
+}
+  .appStore
+  {
+    height: 10%;
+    position: relative;
+    bottom: 35%;
+    left: 65%;
+    animation: ease-out transition 0.3s;
+}
+.appStore:hover {
+  transform: scale(1.1);
+}
+  .storeLink
+  {
+    position: relative;
+
+  }
+  .footerImage
+  {
+      max-height: 600px; 
+      width: 100%;
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+  }

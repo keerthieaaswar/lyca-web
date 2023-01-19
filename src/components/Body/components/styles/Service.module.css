@@ -1,0 +1,47 @@
+.main {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.serviceName {
+  font-style: normal;
+  padding-left: 35%;
+  padding-right: 50%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.serviceDesc {
+  font-style: normal;
+  padding-left: 25%;
+  padding-right: 40%;
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.orderButton {
+  width: 128px;
+  height: 35px;
+  background: #696969;
+  border-radius: 8px;
+  position: relative;
+  top: 30%;
+  left: 32%;
+  animation: ease-out transition 0.3s;
+}
+.orderButton:hover {
+  transform: scale(1.1);
+  background: black;
+}
+.orderButtonText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+
+  color: #ffffff;
+}

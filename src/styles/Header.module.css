@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  width: 100%;
+  background-color: #eeeeee;
+  padding: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.subContainer {
+  align-self: flex-end;
+  justify-content: space-evenly;
+}
+
+.labelText {
+  padding: 0rem 2rem 0rem 2rem;
+}

@@ -1,0 +1,39 @@
+.container {
+  background-color: #d9d9d9;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.menuContainer {
+  justify-content: flex-start;
+  display: flex;
+  width: 70%;
+}
+
+.logoContainer {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.menuText {
+  padding: 0 1rem 0 1rem;
+}
+
+.logo {
+  width: 3rem;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: flex-end;
+  width: 15%;
+  padding: 0 10px 0 10px;
+}
+
+.imageContainer {
+  display: flex;
+  width: 10%;
+}
